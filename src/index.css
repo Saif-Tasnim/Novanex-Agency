@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    @apply bg-gray-900 text-gray-200 m-0 p-0 text-base font-normal
+}
+
+div, h1, p{
+    @apply bg-transparent
+}
+
+.link-class{
+    @apply bg-transparent text-lg hover:border-b-2 border-green-600 hover:scale-105 transition-all duration-300
+}

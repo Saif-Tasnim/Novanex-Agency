@@ -4,7 +4,7 @@ import Icons from "../../../../../component/Icons/Icons";
 // eslint-disable-next-line react/prop-types
 const SingleCard = ({ title, description, link}) => {
     return (
-        <div className="w-full p-10 border shadow-md shadow-green-200">
+        <div className="w-full p-10 border shadow-md hover:shadow-green-200 hover:scale-105 transition-all duration-500">
             <Icons.AppWindow className="w-14 h-14"/>
             <h1 className="text-2xl font-semibold mt-5 mb-3 cursor-pointer hover:underline">{title}</h1>
             <p className="my-4">{description}</p>

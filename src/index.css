@@ -11,5 +11,5 @@ div, h1, p{
 }
 
 .link-class{
-    @apply bg-transparent text-lg hover:border-b-2 border-green-600 hover:scale-105 transition-all duration-300
+    @apply bg-transparent text-lg hover:border-b-4 border-green-600 hover:scale-105 transition-all duration-300
 }

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-gray-700">
+    <div className="bg-gray-700 mt-28">
       <div className="flex justify-around border-b border-gray-300 py-5 text-3xl">
         <h1>Novanex IT </h1>
         <p>Call Us At : 999877778787878 </p>

@@ -38,7 +38,7 @@ const About = () => {
           </p>
 
           <div className="text-center my-9">
-            <Button content="Know More" type="secondary" />
+            <Button content="Know More" type="secondary" to="/about-us" />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ export const NAVBAR_DATA = [
         value: "Home"
     },
     {
-        path: "/about",
+        path: "/about-us",
         value: "About Us"
     },
     {

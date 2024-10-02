@@ -1,4 +1,3 @@
-import Button from "../../../../component/Button/Button";
 
 // eslint-disable-next-line react/prop-types
 const SingleBanner = ({ img, des, heading }) => {
@@ -6,9 +5,9 @@ const SingleBanner = ({ img, des, heading }) => {
     <>
     <div className="flex justify-between">
       
-      <div className="w-1/2 mr-6 py-12">
-        <h1 className="w-full text-4xl my-7"> {heading} </h1>
-        <p className="text-lg italic w-full py-2">{des}</p>
+      <div className="w-1/2 mr-6">
+        <h1 className="w-full text-5xl my-7"> {heading} </h1>
+        <p className="text-lg italic w-full py-12">{des}</p>
       </div>
 
       <div className="w-1/2 h-auto">
@@ -16,10 +15,7 @@ const SingleBanner = ({ img, des, heading }) => {
       </div>
     </div>
 
-    <div className="absolute bottom-16 left-8 flex gap-12">
-        <Button content="See Our Works" type="primary"/>
-        <Button content="Contact With Us" type="secondary"/>
-    </div>
+    
     </>
   );
 };

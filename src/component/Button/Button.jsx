@@ -1,7 +1,8 @@
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const Button = ({ content, type, to, className }) => {
+  const navigate = useNavigate();
   return (
     <button
       className={`${className} border border-green-800 px-4 py-3 rounded-md ${
@@ -11,7 +12,7 @@ const Button = ({ content, type, to, className }) => {
           ? "hover:bg-red-700 hover:text-white"
           : ""
       }`}
-      onClick={() => <Navigate to={to} />}
+      onClick={() => navigate(to)}
     >
       {content}
     </button>

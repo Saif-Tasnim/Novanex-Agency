@@ -1,6 +1,6 @@
 export const NAVBAR_DATA = [
     {
-        path: "",
+        path: "/",
         value: "Home"
     },
     {

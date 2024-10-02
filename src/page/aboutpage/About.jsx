@@ -1,15 +1,15 @@
 import PageBanner from "../../component/PageBanner/PageBanner";
 import img from "../../assets/about-us.jpg";
+import OurStat from "./component/OurStat/OurStat";
+import AboutDetails from "./component/AboutDetails/AboutDetails";
 
 const About = () => {
   return (
-    <div>
+    <>
       <PageBanner img={img} content="about - us" />
-
-      <div className="my-28">
-        <h1 className="text-center text-3xl font-semibold underline">Who We Are ? </h1>
-      </div>
-    </div>
+      <AboutDetails />
+      <OurStat />
+    </>
   );
 };
 

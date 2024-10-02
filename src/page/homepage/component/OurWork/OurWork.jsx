@@ -1,5 +1,5 @@
+import SingleCard from "../../../../component/SingleCard/SingleCard";
 import SubHeading from "../../../../component/SubHeading/SubHeading";
-import SingleCard from "../OurMision/SingleCard/SingleCard";
 
 const OurWork = () => {
   return (

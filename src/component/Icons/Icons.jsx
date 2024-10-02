@@ -1,9 +1,21 @@
-import { AppWindow, MoveRightIcon } from "lucide-react";
+import {
+  AppWindow,
+  MoveRightIcon,
+  SmilePlus,
+  SquareChartGantt,
+  User,
+  ShieldCheck,
+  Factory,
+} from "lucide-react";
 
-
-const Icons =  {
-   AppWindow,
-   MoveRightIcon
+const Icons = {
+  AppWindow,
+  MoveRightIcon,
+  SmilePlus,
+  SquareChartGantt,
+  User,
+  ShieldCheck,
+  Factory,
 };
 
 export default Icons;

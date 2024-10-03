@@ -8,15 +8,23 @@ const OurStat = () => {
   useEffect(() => {
     Aos.init();
   }, []);
+
+  useEffect(() => {
+    const element = document.getElementById("animatedGrid");
+    if (window.innerWidth >= 768) {
+      element.setAttribute("data-aos", "fade-right");
+      element.setAttribute("data-aos-easing", "ease-in-sine");
+      element.setAttribute("data-aos-duration", "1500");
+    }
+  }, []);
+
   return (
     <div className="my-24">
       <SectionHeading content="Our Stats" />
 
       <div
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mx-6 my-12"
-        data-aos="fade-right"
-        data-aos-easing="ease-in-sine"
-        data-aos-duration="1500"
+        id="animatedGrid"
       >
         {OUR_STAT.map((stat) => (
           <SingleCard

@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className="my-32">
       <SubHeading content="About Novanex IT" />
-      <div className="flex justify-around gap-12 mx-8">
+      <div className="flex flex-col md:flex-row justify-around gap-12 mx-8">
         <div
           className="w-full h-auto"
           data-aos="fade-down"
@@ -28,7 +28,7 @@ const About = () => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-sine"
         >
-          <p className="text-lg">
+          <p className="text-center md:text-justify text-lg">
             At Novanex IT, we are a team of passionate professionals committed
             to delivering innovative digital solutions that help businesses
             thrive in the digital age. With expertise in web development,

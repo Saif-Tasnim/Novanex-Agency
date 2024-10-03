@@ -3,7 +3,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 import "./style.css";
 import img1 from "../../../../assets/Banner/bg-1.jpg";
 import img2 from "../../../../assets/Banner/bg-2.jpg";
@@ -16,16 +15,12 @@ const Banner = () => {
     <div className="h-screen">
       <Swiper
         direction={"vertical"}
-        pagination={{
-          clickable: true,
-        }}
+        pagination={{ clickable: true }}
         modules={[Pagination, Autoplay]}
         className="mySwiper"
-        autoplay
-        loop
-        style={{
-          position: "relative"
-        }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        loop={true}
+        style={{ position: "relative" }}
       >
         <SwiperSlide>
           <SingleBanner
@@ -49,8 +44,8 @@ const Banner = () => {
           />
         </SwiperSlide>
 
-        <div className="absolute bottom-10 left-8 flex gap-12 z-50">
-          <Button content="See Our Works" type="primary"  />
+        <div className="absolute bottom-10 left-8 flex gap-6 md:gap-12 z-50">
+          <Button content="See Our Works" type="primary" />
           <Button content="Contact With Us" type="secondary" />
         </div>
       </Swiper>

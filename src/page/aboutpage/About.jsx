@@ -5,11 +5,11 @@ import AboutDetails from "./component/AboutDetails/AboutDetails";
 
 const About = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <PageBanner img={img} content="about - us" />
       <AboutDetails />
       <OurStat />
-    </>
+    </div>
   );
 };
 

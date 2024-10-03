@@ -12,10 +12,6 @@ export const NAVBAR_DATA = [
         value: "Our Service"
     },
     {
-        path: "/portfolio",
-        value: "Portfolio"
-    },
-    {
         path: "/contact-us",
         value: "Contact With Us"
     },

@@ -9,9 +9,9 @@ const PageBanner = ({ img, content }) => {
     >
       <div className="absolute inset-0 bg-gray-950/40 backdrop-blur-sm"></div>
 
-      <div className="relative uppercase bg-green-900/60 backdrop-blur-lg border border-green-400/40 p-6 rounded-md flex gap-6 items-center mt-52">
+      <div className="relative uppercase bg-green-900/60 backdrop-blur-lg border border-green-400/40 p-3 md:p-6 rounded-md flex gap-6 items-center md:mt-52">
         <span className="h-2 w-2 bg-white rounded-full inline-block"> </span>
-        <p className="text-4xl font-semibold">{content}</p>
+        <p className="text-xl md:text-4xl font-semibold">{content}</p>
         <span className="h-2 w-2 bg-white rounded-full inline-block"> </span>
       </div>
     </div>

@@ -17,7 +17,7 @@ const SingleCard = ({ title, description, link, children, number }) => {
         </h1>
       )}
 
-      <p className="my-4">{description}</p>
+      <p className="py-4 text-center md:text-justify">{description}</p>
 
       {link && (
         <Link

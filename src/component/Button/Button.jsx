@@ -5,7 +5,7 @@ const Button = ({ content, type, to, className }) => {
   const navigate = useNavigate();
   return (
     <button
-      className={`${className} border border-green-800 px-4 py-3 rounded-md ${
+      className={`${className} border border-green-800 p-2 text-nowrap md:px-4 md:py-3 rounded-md ${
         type === "primary"
           ? "bg-green-950 text-white hover:bg-gray-400 hover:text-gray-900 hover:scale-110"
           : type === "secondary"

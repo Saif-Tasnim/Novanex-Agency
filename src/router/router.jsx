@@ -3,6 +3,7 @@ import Main from "../layout/Main";
 import Home from "../page/homepage/Home";
 import About from "../page/aboutpage/About";
 import ErrorPage from "../component/ErrorPage/ErrorPage";
+import Service from "../page/servicepage/Service";
 
 export const router = createBrowserRouter([
   {
@@ -17,7 +18,19 @@ export const router = createBrowserRouter([
         path: "about-us",
         element: <About />,
       },
+      {
+        path: "/services",
+        element: <Service />
+      },
+      {
+        path: "/contact-us",
+        
+      },
+      {
+        path: "/blog",
+        
+      },
     ],
-    errorElement: <ErrorPage/>
+    errorElement: <ErrorPage />,
   },
 ]);

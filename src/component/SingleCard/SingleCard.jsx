@@ -6,7 +6,6 @@ const SingleCard = ({ title, description, link, children, number }) => {
   return (
     <div className="w-full p-10 border shadow-md hover:shadow-green-200 hover:scale-105 transition-all duration-500">
       {children}
-
       <h1 className="text-2xl font-semibold mt-5 mb-3 cursor-pointer hover:underline text-center">
         {title}
       </h1>
@@ -24,11 +23,10 @@ const SingleCard = ({ title, description, link, children, number }) => {
           to={link}
           className="pt-5 flex gap-2 items-center text-green-600 text-xl"
         >
-          {" "}
           Learn More{" "}
           <span className="pt-1 text-green-600">
             <Icons.MoveRightIcon />
-          </span>{" "}
+          </span>
         </Link>
       )}
     </div>

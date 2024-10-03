@@ -7,19 +7,20 @@ const ServiceList = () => {
     <div className="my-28">
       <SectionHeading content="What We Do ?" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mx-6 my-12">
-        {SERVICES.map((service) => (
-          <SingleCard
-            key={service.title}
-            title={service.title}
-            description={service.description}
-            link={service.link}
-          >
-            {" "}
-            {service.icon}{" "}
-          </SingleCard>
-        ))}
-      </div>
+      {SERVICES.map((service) => (
+        <>
+          <h1 className="text-4xl text-green-600 m-10">{service.title}</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mx-6 my-20">
+            {service.number.map((project) => (
+              <SingleCard
+                key={project.project_no}
+                title={project.project_title}
+                description={project.project_des}
+              />
+            ))}
+          </div>
+        </>
+      ))}
     </div>
   );
 };

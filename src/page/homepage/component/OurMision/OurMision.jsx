@@ -14,8 +14,7 @@ const OurMision = () => {
             description={service.description}
             link={service.link}
           >
-            {" "}
-            {service.icon}{" "}
+            <img src={service.icon} alt="icons" className="w-24 h-24 bg-purple-900 mx-auto rounded-2xl"/>
           </SingleCard>
         ))}
       </div>

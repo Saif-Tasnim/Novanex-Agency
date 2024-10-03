@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="my-28">
         <SectionHeading content="Contact With Us" />
 
-        <div className="flex flex-col md:flex-row justify-evenly my-20">
+        <div className="flex flex-col gap-14 items-center md:flex-row justify-evenly my-20">
           <div>
             <h1 className="text-lg underline">Our Address : </h1>
             <p className="mt-3">Dhaka, Bangladesh</p>
@@ -29,7 +29,7 @@ const Contact = () => {
               </a>
             </p>
           </div>
-          <div className="h-72 border border-green-600"></div>
+          <div className="hidden md:block h-72 border border-green-600"></div>
           <div>
             <input
               type="text"

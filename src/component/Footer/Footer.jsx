@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
     <div className="bg-gray-700 mt-28">
-      <div className="flex justify-around border-b border-gray-300 py-5 text-3xl">
+      <div className="flex flex-col gap-7 md:flex-row justify-around border-b border-gray-300 py-5 px-4 text-3xl">
         <h1>Novanex IT </h1>
         <p>Call Us At : 999877778787878 </p>
       </div>
       
-      <div className="py-9 px-4 flex flex-col gap-2 border-b border-gray-300">
+      <div className="py-5 md:py-9 px-4 flex flex-col gap-2 border-b border-gray-300">
         <h1 className="text-xl">Our Address : </h1>
         <p className="text-lg">Dhaka, Bangladesh</p>
       </div>

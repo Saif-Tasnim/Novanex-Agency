@@ -3,7 +3,7 @@ export const SERVICES = [
     title: "Web Development",
     description:
       "Building responsive and high-performance websites tailored to your business needs, using the latest web technologies.",
-    link: "/service/web-development",
+    link: "/services",
     icon: '/service/web.png',
     number: [
       {
@@ -47,7 +47,7 @@ export const SERVICES = [
     title: "UI/UX Design",
     description:
       "Crafting intuitive and aesthetically pleasing user interfaces and experiences that engage users and meet business goals.",
-    link: "/service/ui-ux-design",
+    link: "/services",
     icon: '/service/ux.png',
     number: [
       {
@@ -91,7 +91,7 @@ export const SERVICES = [
     title: "System Design",
     description:
       "Designing scalable, robust systems architecture that ensures efficient performance and growth for your business.",
-    link: "/service/system-design",
+    link: "/services",
     icon: '/service/cms.png',
     number: [
       {

@@ -45,8 +45,8 @@ const Banner = () => {
         </SwiperSlide>
 
         <div className="absolute bottom-10 left-8 flex gap-6 md:gap-12 z-50">
-          <Button content="See Our Works" type="primary" />
-          <Button content="Contact With Us" type="secondary" />
+          <Button content="See Our Works" type="primary" to="/services" />
+          <Button content="Contact With Us" type="secondary" to="/contact-us" />
         </div>
       </Swiper>
     </div>
